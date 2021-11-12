@@ -1,0 +1,78 @@
+/* set margins of the body of the page */
+body {
+    margin: 0 .5rem 0 .5rem;
+}
+
+header {
+    background-image: url("C:/Users/chris/Desktop/Projects/Dasmotos/resources/images/pattern.webp");
+    height: 7rem;
+    margin: 4rem 0;
+}
+
+h1 {
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+}
+
+p {
+    font-size: 1.1rem;
+    font-family: Helvetica;
+    margin-bottom: 1.6rem; /* Set the margin for the bottom of the <p> elements */
+}
+
+img {
+    max-width: 100%;
+}
+
+.brushes-header {
+    display: flex; /* Using flex so the align-items property can be used */
+    font-family: Helvetica;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    background-color: mediumspringgreen;
+    height: 2.3rem;
+    align-items: center; /* Align the header title vertically */
+    margin-bottom: 2rem; /* Set bottom margin for this class separately */
+}
+
+.frames-header {
+    display: flex; /* Using flex so the align-items property can be used */
+    font-family: Helvetica;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    background-color: lightcoral;
+    height: 2.3rem;
+    align-items: center; /* Align the header title vertically */
+    margin-bottom: 2rem; /* Set bottom margin for this class separately */
+}
+
+.paint-header {
+    display: flex; /* Using flex so the align-items property can be used */
+    font-family: Helvetica;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    background-color: skyblue;
+    height: 2.3rem;
+    align-items: center; /* Align the header title vertically */
+    margin-bottom: 2rem; /* Set bottom margin for this class separately */
+}
+
+/* This is the title above each paragraph description */
+.titles {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.price {
+    font-family: Helvetica;
+    font-weight: bold;
+    color: blue;
+    font-size: 1.1rem;
+}
