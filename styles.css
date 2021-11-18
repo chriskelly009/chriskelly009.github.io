@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box
+}
+
+html {
+    font-size: 1em;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.second-background {
+    position: relative;
+    /* background-image: linear-gradient( #776C55, #776c5536); */
+    background-image: linear-gradient( rgba(255, 166, 0, 0.932) 50%, transparent);
+    height: 80vh;   
+    /* border-top: 5px solid #EDD8A8; */
+    border-top: 5px solid #5165db;
+}
+
+.head-shot {
+    position: absolute;
+    border-radius: 25px;
+    top: 10%;
+    width: 20%; 
+    right: 7%;
+    opacity: .8;
+}
+
+.main-pic {
+    position: relative;
+    background: url("desktop2.jpg") 0 0 / cover no-repeat;
+    width: 100%;
+    max-width: 100%;
+    height: 40vh; 
+}
+
+.personal-info {
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    top: 14%;
+    text-align: center;
+    line-height: .8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    word-spacing: .25rem;
+    color: rgb(65, 20, 20);
+    text-shadow: 2px 2px 2px gray;
+}
+
+#last-name {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-family: 'Lateef', cursive;
+}
+
+.my-email::after {
+  display: block;
+  content: "\21E9"; 
+  font-size: 3.5rem;
+  margin-top: 15%;
+}
+
+.objective {
+    position: absolute;
+    hyphens: auto;
+    color: rgb(65, 20, 20);
+    margin: 0 auto;
+    padding: 10% 5% 0;
+    line-height: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+button {
+    display: block;
+    background-color: #5165db;
+    margin: 70% auto;
+    border-radius: 10px 10px;
+    /* background: radial-gradient(circle at top left, #5165db 25%, transparent), radial-gradient(circle at 
+                top right, rgba(255, 166, 0, 0.932) 50%,
+                transparent); */
+    background: linear-gradient(#5165db, transparent);
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+ul {
+    margin-left: 0;
+    margin-top: 10%;
+    list-style: none;
+    padding-left: 5%;
+}
+li {
+    padding: 2% 0;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 100%;
+    /* top: 20%; */
+    margin-left: 2%;
+    /* color: #EDD8A8;   */
+    color: #5165db;
+}
+
+footer {
+    background-color:rgb(65, 20, 20);
+    text-align: center;
+}
+
+footer a {
+    font-size: 1rem;
+}
+/* media */
+
+@media screen and (min-width: 560px) {
+
+    .second-background {
+        height: 110vh;
+    }
+    .personal-info {
+        font-size: 1.5rem;
+        top: 30%;
+    }
+    #last-name{
+        font-size: 3rem;
+    }
+    .objective {
+        margin-top: 10%;
+        padding: 0 15%;
+        font-size: 1.5rem;
+        line-height: 1.75rem;
+        width: 100%;
+        text-align: center;
+        background-color: white;
+    }
+    .main-pic, .first-background {
+        height: 75vh;
+    }
+    #last-name {
+    font-size: 4.25rem;
+    }
+    .nav {
+        display: block;
+        text-align: left;
+        margin-top: 0;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .nav ul {
+        list-style: none;
+        margin-top: 0;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    li {
+        display: inline-block;
+        margin: 10% 3% 0;
+    }
+    a {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.25rem;
+        width: 100%;
+        top: 20%;
+        margin-left: 20%;
+        color: #EDD8A8;  
+    }
+    
+    .material-icons {
+        margin-left: 45%;
+    }
+    .head-shot{
+        width: 15%;
+    }
+}
+
+@media screen and (min-width: 651px) {
+    .objective {
+        /* margin-top: 20%; */
+        padding: 0 15%;
+        font-size: 2rem;
+        line-height: 2.25rem;
+        width: 100%;
+        text-align: center;
+        background-color: white;
+    }
+    .second-background {
+        height: 120vh;
+    }
+}
